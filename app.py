@@ -77,4 +77,12 @@ if st.button("Predict"):
         """)
 
     st.markdown(" *Note: This tool is for educational use. Always consult a medical professional.*")
-st.markdown("Created by **Zeeshan Akram**")
+st.markdown("<hr style='border: 1px solid #f0f0f0;'>", unsafe_allow_html=True)
+
+# Professional footer
+st.markdown(
+    "<div style='text-align: center; color: grey; font-size: 14px;'>"
+    "© 2025 | Heart Disease Predictor | Created by <strong>Zeeshan Akram</strong>"
+    "</div>",
+    unsafe_allow_html=True
+)
