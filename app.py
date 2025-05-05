@@ -10,7 +10,7 @@ st.markdown("Enter your medical details in the sidebar to get prediction for hea
 
 # Sidebar inputs
 st.sidebar.header("Patient Info")
-
+st.sidebar.markdown("Created by **Zeeshan Akram**")
 age = st.sidebar.slider("Age", 20, 100, 50)
 sex = st.sidebar.selectbox("Sex", ['Male', 'Female'])
 cp_type = st.sidebar.selectbox("Chest Pain Type", ['Typical angina', 'Atypical angina', 'Non-anginal pain', 'Asymptomatic'])
